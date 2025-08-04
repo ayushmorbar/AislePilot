@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Run lint, test, and build checks",
+			"command": "pnpm run lint && pnpm run test && pnpm run build",
+			"args": [],
+			"problemMatcher": [
+				"$tsc",
+				"$eslint-stylish"
+			],
+			"group": "build",
+			"isBackground": false
+		}
+	]
+}

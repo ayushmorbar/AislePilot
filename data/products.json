@@ -1,0 +1,72 @@
+{
+  "products": [
+    {
+      "id": "P001",
+      "name": "Organic Bananas",
+      "price": 2.99,
+      "stock": 2,
+      "aisle": "A1",
+      "category": "Produce",
+      "image": "/placeholder.svg?height=100&width=100",
+      "recommendations": ["P002", "P003"]
+    },
+    {
+      "id": "P002",
+      "name": "Greek Yogurt",
+      "price": 5.49,
+      "stock": 15,
+      "aisle": "A2",
+      "category": "Dairy",
+      "image": "/placeholder.svg?height=100&width=100",
+      "recommendations": ["P001", "P004"]
+    },
+    {
+      "id": "P003",
+      "name": "Whole Wheat Bread",
+      "price": 3.99,
+      "stock": 1,
+      "aisle": "A3",
+      "category": "Bakery",
+      "image": "/placeholder.svg?height=100&width=100",
+      "recommendations": ["P005", "P002"]
+    },
+    {
+      "id": "P004",
+      "name": "Organic Milk",
+      "price": 4.29,
+      "stock": 8,
+      "aisle": "A2",
+      "category": "Dairy",
+      "image": "/placeholder.svg?height=100&width=100",
+      "recommendations": ["P002", "P001"]
+    },
+    {
+      "id": "P005",
+      "name": "Peanut Butter",
+      "price": 6.99,
+      "stock": 3,
+      "aisle": "A3",
+      "category": "Pantry",
+      "image": "/placeholder.svg?height=100&width=100",
+      "recommendations": ["P003", "P001"]
+    }
+  ],
+  "aisles": {
+    "A1": {
+      "name": "Produce",
+      "coordinates": { "x": 150, "y": 100 }
+    },
+    "A2": {
+      "name": "Dairy",
+      "coordinates": { "x": 250, "y": 200 }
+    },
+    "A3": {
+      "name": "Bakery & Pantry",
+      "coordinates": { "x": 350, "y": 150 }
+    }
+  },
+  "userLocation": {
+    "x": 50,
+    "y": 250
+  }
+}
